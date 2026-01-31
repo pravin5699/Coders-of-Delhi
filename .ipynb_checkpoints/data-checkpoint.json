@@ -1,0 +1,65 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "81c81d2e-1dd4-4da9-9cd7-488e4598020b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 10) (2268307477.py, line 10)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[1], line 10\u001b[1;36m\u001b[0m\n\u001b[1;33m    {\"id\": 102, \"name\": \"Data Science Enthu\u001b[0m\n\u001b[1;37m                        ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m unterminated string literal (detected at line 10)\n"
+     ]
+    }
+   ],
+   "source": [
+    "{\n",
+    "    \"users\": [\n",
+    "        {\"id\": 1, \"name\": \"Amit\", \"friends\": [2, 3], \"liked_pages\": [101]},\n",
+    "        {\"id\": 2, \"name\": \"Priya\", \"friends\": [1, 4], \"liked_pages\": [102]},\n",
+    "        {\"id\": 3, \"name\": \"Rahul\", \"friends\": [1], \"liked_pages\": [101, 103]},\n",
+    "        {\"id\": 4, \"name\": \"Sara\", \"friends\": [2], \"liked_pages\": [104]}\n",
+    "    ],\n",
+    "    \"pages\": [\n",
+    "        {\"id\": 101, \"name\": \"Python Developers\"},\n",
+    "        {\"id\": 102, \"name\": \"Data Science Enthu\n",
+    "        {\"id\": 103, \"name\": \"AI & ML Community\"},\n",
+    "        {\"id\": 104, \"name\": \"Web Dev Hub\"}\n",
+    "    ]\n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "139e2c72-0304-46d0-9fcb-e56052a12270",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
